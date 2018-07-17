@@ -1,0 +1,22 @@
+.App-header {
+    background-color: #222;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.App-header nav a {
+    padding: 0 1em;
+}

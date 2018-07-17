@@ -1,0 +1,15 @@
+.recipe-grid {
+    display: flex;
+    flex: 1 0 33%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1201px) {
+    .recipe-grid { 
+        flex: 1 0 25%;
+    }
+}
