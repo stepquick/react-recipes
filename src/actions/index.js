@@ -13,12 +13,6 @@ const actions = {
         }
     },
 
-    editRecipe: () => {
-        return {
-            type: types.EDIT_RECIPE
-        }
-    },
-
     updateRecipe: (recipe) => {
         return {
             type: types.UPDATE_RECIPE,
